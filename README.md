@@ -31,7 +31,7 @@ into
 # Usage
 
 ```javascript
-import hwb from 'glamor-color-hwb;
+import hwb from 'glamor-color-hwb';
 import { plugins } from 'glamor';
 plugins.add(hwb);
 ```
