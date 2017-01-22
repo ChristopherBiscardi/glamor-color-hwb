@@ -1,0 +1,31 @@
+{
+  "name": "glamor-color-hwb",
+  "version": "0.0.1",
+  "description": "hwb() colors for glamor",
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristopherBiscardi/glamor-color-hwb.git"
+  },
+  "bugs": "https://github.com/ChristopherBiscardi/glamor-color-hwb/issues",
+  "scripts": {
+    "build": "babel index.es.js --out-file index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "color": "^1.0.3",
+    "reduce-function-call": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "glamor": "^2.20.22",
+    "jest": "^18.1.0"
+  }
+}
